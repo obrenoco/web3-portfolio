@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: "#CEF53D",
+        primary: "#0f05ff",
       },
       spacing: {
         body: "2rem",

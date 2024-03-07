@@ -9,7 +9,7 @@ export const Card = ({ title }: { title: string }) => (
       </span>
     </p>
     <p>
-      <ArrowIcon className="text-gray-400 group-hover:bg-primary group-hover:text-black transition-colors duration-300 w-14 h-14" />
+      <ArrowIcon className="text-gray-400 group-hover:bg-primary group-hover:text-white transition-colors duration-300 w-14 h-14" />
     </p>
   </div>
 );
