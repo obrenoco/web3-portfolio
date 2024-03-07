@@ -1,6 +1,6 @@
 export const Header = () => (
   <header className="flex justify-between items-center bg-primary p-body">
-    <a href="#" className="font-bold">
+    <a href="#" className="font-bold text-lg">
       Web3
     </a>
     <ul className="flex items-center gap-16 text-sm">

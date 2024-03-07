@@ -12,10 +12,11 @@ export const Services = () => (
         <h2>
           Our services <span className="text-primary text-8xl">.</span>
         </h2>
-        <p className="text-sm text-gray-700 max-w-[525px]">
-          Description description description description description
-          description description description description description
-          description description description description
+        <p className="text-sm text-gray-400 max-w-[550px]">
+          Discover our services in the Web3 domain, blending creativity and
+          blockchain. Explore blockchain apps, smart contracts, and NFT
+          platforms. Experience innovation meeting blockchain, redefining Web3
+          possibilities.
         </p>
       </div>
       <div className="min-w-80">

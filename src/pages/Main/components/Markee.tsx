@@ -15,11 +15,11 @@ const El = () => {
 
 export const Markee = () => {
   return (
-    <section className="marquee w-full h-20 bg-white text-primary text-3xl font-bold flex items-center [&>*]:uppercase text-nowrap">
-      <div className="marquee-content scroll flex gap-8">
+    <section className="w-auto h-20 bg-white text-primary text-3xl font-bold flex items-center [&>*]:uppercase text-nowrap">
+      <div className="scroll flex gap-8">
         <El />
       </div>
-      <div className="marquee-content scroll flex gap-8 ml-body">
+      <div className="scroll flex gap-8 ml-body">
         <El />
       </div>
     </section>
