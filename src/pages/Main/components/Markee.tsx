@@ -15,7 +15,7 @@ const El = () => {
 
 export const Markee = () => {
   return (
-    <section className="w-auto h-20 bg-white text-primary text-3xl font-bold flex items-center [&>*]:uppercase text-nowrap">
+    <section className="w-auto h-20 bg-black text-white text-3xl font-bold flex items-center [&>*]:uppercase text-nowrap">
       <div className="scroll flex gap-8">
         <El />
       </div>

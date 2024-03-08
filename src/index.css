@@ -40,3 +40,17 @@ h2 {
 .scroll {
   animation: scroll 100s linear infinite;
 }
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  animation: fadeIn 0.8s normal;
+}

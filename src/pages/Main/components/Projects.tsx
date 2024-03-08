@@ -14,7 +14,7 @@ export const Projects = () => (
         <h2 className="text-white">
           Best projects <span className="text-primary text-8xl">.</span>
         </h2>
-        <div className="min-w-80">
+        {/* <div className="min-w-80">
           <ul className="flex gap-4 w-full flex-wrap text-white">
             <li>
               <Tag Icon={GlobeIcon} title="Design" color="white" selected />
@@ -29,7 +29,7 @@ export const Projects = () => (
               <Tag Icon={GlobeIcon} title="SEO" color="white" />
             </li>
           </ul>
-        </div>
+        </div> */}
       </div>
       <p className="text-sm text-gray-400 max-w-[600px] text-right">
         Explore our Web3 portfolio, a fusion of creativity and blockchain.

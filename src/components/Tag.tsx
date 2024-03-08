@@ -13,7 +13,7 @@ export const Tag = ({
 }) => (
   <button
     onClick={onClick}
-    className={`border-[1px] px-4 py-1 text-xs rounded-full flex items-center gap-2  ${
+    className={`border-[1px] px-4 py-1 text-xs rounded-full flex items-center gap-2 text-nowrap  ${
       selected
         ? `border-${color} text-${color} cursor-default`
         : "border-gray-500 text-gray-500"
