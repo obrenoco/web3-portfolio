@@ -106,11 +106,10 @@ export const Services = () => {
           </ul>
         </div>
       </div>
-      {Service["Design"]}
 
       <div className="my-10">
         {ServicesList[selected].map((x, i) => (
-          <Card title={x} key={`${x}-${i}`} className="fadeIn" />
+          <Card title={x} key={`${x}-${i}`} />
         ))}
       </div>
     </section>

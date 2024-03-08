@@ -12,24 +12,24 @@ export const Quote = () => (
         <img
           src={Img1}
           alt=""
-          className="w-full h-full rounded-full grayscale object-cover"
+          className="w-full h-full rounded-full grayscale object-cover hover:grayscale-0 transition-all duration-300"
         />
       </span>{" "}
       mind knows{" "}
       <span className="h-[1.1ch] bg-primary inline-block rounded-full">
-        <ArrowIcon className="w-full h-full p-1" />
+        <ArrowIcon className="w-full h-full p-1 hover:rotate-[135deg] transition-all duration-500" />
       </span>{" "}
       how to do the{" "}
       <span className="h-[1.1ch] w-28 bg-primary inline-block rounded-full">
         <img
           src={Img2}
           alt=""
-          className="w-full h-full rounded-full grayscale object-cover"
+          className="w-full h-full rounded-full grayscale object-cover hover:grayscale-0 transition-all duration-300"
         />
       </span>{" "}
       right thing at the right place and at the{" "}
       <span className="h-[1.1ch] w-20 bg-primary inline-block rounded-full">
-        <SparkIcon className="w-full h-full p-2" />
+        <SparkIcon className="w-full h-full p-2 hover:p-0 transition-all duration-300" />
       </span>{" "}
       right time
     </p>
