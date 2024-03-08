@@ -1,5 +1,3 @@
-import { GlobeIcon } from "../../../assets/icons/globe";
-import { Tag } from "../../../components/Tag";
 import Img1 from "../../../assets/images/sample-1.jpg";
 import Img2 from "../../../assets/images/sample-2.jpg";
 import Img3 from "../../../assets/images/sample-3.jpg";
