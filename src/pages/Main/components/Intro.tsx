@@ -7,7 +7,7 @@ import Img from "../../../assets/images/sample-1.jpg";
 import { Divider } from "../../../components/Divider";
 
 export const Intro = () => (
-  <section className="md:p-body pt-10 md:pt-20 pb-0 bg-primary">
+  <section className="md:p-body pt-10 md:pt-20 pb-0 bg-primary ">
     <div className="flex justify-between gap-10 flex-col p-body md:flex-row">
       <div>
         <h1 className="text-white w-min md:mb-8">Web3 Agency</h1>
