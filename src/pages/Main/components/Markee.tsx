@@ -5,7 +5,7 @@ const El = () => {
   for (let index = 0; index < 10; index++) {
     jsxElements.push(
       <>
-        <p>Web3 Portfolio</p>
+        <p className="text-nowrap">Web3 Portfolio</p>
         <SparkIcon className="inline w-8 h-8" />
       </>
     );
