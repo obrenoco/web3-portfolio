@@ -5,7 +5,7 @@ const El = () => {
   for (let index = 0; index < 10; index++) {
     jsxElements.push(
       <>
-        <h3>Web3 Portfolio</h3>
+        <p>Web3 Portfolio</p>
         <SparkIcon className="inline w-8 h-8" />
       </>
     );
@@ -15,11 +15,11 @@ const El = () => {
 
 export const Markee = () => {
   return (
-    <section className="w-auto h-20 bg-black text-white text-3xl font-bold flex items-center [&>*]:uppercase text-nowrap">
-      <div className="scroll flex gap-8">
+    <section className="w-auto h-20 bg-black text-white text-xl md:text-3xl font-bold flex items-center [&>*]:uppercase text-nowrap">
+      <div className="scroll flex gap-8 items-center">
         <El />
       </div>
-      <div className="scroll flex gap-8 ml-body">
+      <div className="scroll flex gap-8 ml-body items-center">
         <El />
       </div>
     </section>
