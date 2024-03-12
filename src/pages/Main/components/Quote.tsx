@@ -5,7 +5,7 @@ import Img2 from "../../../assets/images/sample-5.jpg";
 
 export const Quote = () => (
   <section className="p-body bg-gray-900">
-    <p className="uppercase font-bold text-white bg-gray-700 px-32 py-24 text-6xl text-center">
+    <p className="uppercase font-bold text-white bg-gray-700 px-4 md:px-32 py-24 text-3xl md:text-6xl text-center">
       a creative{" "}
       <span className="h-[1.1ch] w-32 bg-primary inline-block rounded-full">
         {" "}

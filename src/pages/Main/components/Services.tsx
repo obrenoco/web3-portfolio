@@ -50,11 +50,11 @@ export const Services = () => {
 
   return (
     <section
-      className="bg-gray-900 w-full px-body text-white py-14"
+      className="bg-gray-900 w-full md:px-body text-white py-14"
       id="services"
     >
       <div className="flex gap-16 items-end justify-between">
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-4 px-body md:px-0">
           <h2>
             Our services <span className="text-primary text-8xl">.</span>
           </h2>

@@ -3,7 +3,7 @@ export const Header = () => (
     <a href="#" className="font-bold text-lg">
       Web3
     </a>
-    <ul className="flex items-center gap-16 text-sm">
+    <ul className="items-center hidden md:flex gap-16 text-sm">
       <li>
         <a href="#">About us</a>
       </li>
