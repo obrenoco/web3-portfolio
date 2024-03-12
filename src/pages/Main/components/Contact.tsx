@@ -8,10 +8,10 @@ export const Contact = () => (
       <img
         src={Img}
         alt=""
-        className="px-body h-96 w-full object-cover grayscale hover:grayscale-0 transition-all duration-300"
+        className="md:px-body h-96 w-full object-cover grayscale hover:grayscale-0 transition-all duration-300"
       />
     </a>
-    <section className="bg-primary mx-body rounded-b-[5rem] h-fit py-20 ">
+    <section className="bg-primary md:mx-body rounded-b-[5rem] h-fit py-20 ">
       <div className="flex flex-col items-center justify-center gap-16">
         <div className="w-full flex gap-8 px-10 opacity-50 item-center">
           <Divider />

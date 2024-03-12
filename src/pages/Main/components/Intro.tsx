@@ -49,7 +49,7 @@ export const Intro = () => (
       </a>
       <img
         src={MainBanner}
-        className="w-full rounded-t-[5rem] object-cover h-[34rem] mt-16 relative"
+        className="w-full rounded-t-[5rem] object-cover h-[34rem] mt-8 md:mt-16 relative"
         alt=""
       />
     </div>

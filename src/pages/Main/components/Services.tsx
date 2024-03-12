@@ -53,7 +53,7 @@ export const Services = () => {
       className="bg-gray-900 w-full md:px-body text-white py-14"
       id="services"
     >
-      <div className="flex gap-16 items-end justify-between">
+      <div className="flex gap-8 md:gap-16 items-end justify-between flex-col md:flex-row">
         <div className="flex flex-col gap-4 px-body md:px-0">
           <h2>
             Our services <span className="text-primary text-8xl">.</span>
@@ -66,7 +66,7 @@ export const Services = () => {
           </p>
         </div>
         <div className="min-w-80">
-          <ul className="flex gap-4 w-full justify-end flex-wrap text-white">
+          <ul className="flex gap-4 w-full px-body md:px-0 justify-start md:justify-end flex-wrap text-white">
             <li>
               <Tag
                 Icon={GlobeIcon}

@@ -6,8 +6,8 @@ import Img5 from "../../../assets/images/sample-5.jpg";
 import Img6 from "../../../assets/images/sample-6.jpg";
 
 export const Projects = () => (
-  <section className="p-body pb-0" id="projects">
-    <div className="flex gap-4 md:gap-16 items-center justify-between pb-body md:py-body flex-col md:flex-row">
+  <section className="md:p-body pb-0" id="projects">
+    <div className="flex gap-4 md:gap-16 items-center justify-between p-body md:py-body flex-col md:flex-row">
       <div className="flex flex-col gap-4 w-full">
         <h2 className="text-white">
           Best projects <span className="text-primary text-8xl">.</span>
