@@ -2,6 +2,10 @@ import { useState } from "react";
 import { GlobeIcon } from "../../../assets/icons/globe";
 import { Card } from "../../../components/Card";
 import { Tag } from "../../../components/Tag";
+import Img1 from "../../../assets/images/sample-1.jpg";
+import Img2 from "../../../assets/images/sample-2.jpg";
+import Img3 from "../../../assets/images/sample-3.jpg";
+import Img4 from "../../../assets/images/sample-4.jpg";
 
 enum Service {
   Design = "Design",
@@ -43,6 +47,8 @@ const ServicesList: ServicesListType = {
     "SEO Audits",
   ],
 };
+
+const Images = [Img1, Img2, Img3, Img4];
 
 export const Services = () => {
   const [selected, setSelected] = useState(Service.Design);
@@ -109,7 +115,7 @@ export const Services = () => {
 
       <div className="my-10">
         {ServicesList[selected].map((x, i) => (
-          <Card title={x} key={`${x}-${i}`} />
+          <Card title={x} key={`${x}-${i}`} Img={Images[i]} />
         ))}
       </div>
     </section>

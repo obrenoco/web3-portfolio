@@ -1,4 +1,4 @@
-import { SparkIcon } from "../../../assets/icons/spark";
+import { SparkIcon } from "../assets/icons/spark";
 
 const El = () => {
   const jsxElements = [];

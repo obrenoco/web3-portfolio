@@ -4,7 +4,7 @@ import { Projects } from "./components/Projects";
 import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
 import { Quote } from "./components/Quote";
-import { Markee } from "./components/Markee";
+import { Markee } from "../../components/Markee";
 import { Intro } from "./components/Intro";
 
 export const Main = () => (
