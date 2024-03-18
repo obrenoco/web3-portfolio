@@ -33,7 +33,7 @@ export const Intro = () => (
     </div>
     <div className="flex gap-3 items-center flex-col p-body md:flex-row">
       <div className="flex gap-4 mb-10 md:mb-0">
-        <Tag Icon={GlobeIcon} title="2022 Best Agency" selected color="white" />
+        <Tag Icon={GlobeIcon} title="2024 Best Agency" selected color="white" />
         <Tag
           Icon={GlobeIcon}
           title="World Class Agency"

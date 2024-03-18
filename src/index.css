@@ -58,3 +58,27 @@ h3 {
 .fadeIn {
   animation: fadeIn 0.5s normal;
 }
+
+@keyframes slideIn {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+h2::after {
+  content: "";
+  display: block;
+  height: 8px;
+  width: 0;
+  background-color: #0f05ff;
+  border-radius: 3px;
+  transform-origin: center;
+  transition: width 0.3s ease;
+}
+
+h2:hover::after {
+  width: 70%;
+}
